@@ -1,0 +1,305 @@
+2023-03-03 08:06:29.496  INFO 16908 --- [main] c.e.s.SpringBootSampleApplication        : Starting SpringBootSampleApplication using Java 17.0.4 on LAPTOP-B46F8KF2 with PID 16908 (D:\springClass\springBootSample\target\classes started by Kiarash in D:\springClass\springBootSample)
+2023-03-03 08:06:29.498  INFO 16908 --- [main] c.e.s.SpringBootSampleApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-03-03 08:06:30.130  INFO 16908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-03 08:06:30.179  INFO 16908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2023-03-03 08:06:30.698  INFO 16908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-03 08:06:30.708  INFO 16908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-03 08:06:30.708  INFO 16908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-03-03 08:06:30.828  INFO 16908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-03 08:06:30.828  INFO 16908 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1274 ms
+2023-03-03 08:06:30.945  INFO 16908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-03 08:06:30.950  WARN 16908 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-03-03 08:06:31.169  INFO 16908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-03 08:06:31.210  INFO 16908 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-03 08:06:31.270  INFO 16908 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-03 08:06:31.458  INFO 16908 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-03 08:06:31.591  INFO 16908 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-03-03 08:06:32.120  INFO 16908 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-03 08:06:32.129  INFO 16908 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-03 08:06:32.390  WARN 16908 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-03 08:06:32.679  INFO 16908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-03 08:06:32.688  INFO 16908 --- [main] c.e.s.SpringBootSampleApplication        : Started SpringBootSampleApplication in 3.789 seconds (JVM running for 5.27)
+2023-03-03 08:07:29.598  INFO 16908 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-03 08:07:29.600  INFO 16908 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-03 08:07:29.611  INFO 16908 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-03 08:07:52.307  INFO 16240 --- [main] c.e.s.SpringBootSampleApplication        : Starting SpringBootSampleApplication using Java 17.0.4 on LAPTOP-B46F8KF2 with PID 16240 (D:\springClass\springBootSample\target\classes started by Kiarash in D:\springClass\springBootSample)
+2023-03-03 08:07:52.310  INFO 16240 --- [main] c.e.s.SpringBootSampleApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-03-03 08:07:52.829  INFO 16240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-03 08:07:52.870  INFO 16240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2023-03-03 08:07:53.264  INFO 16240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-03 08:07:53.271  INFO 16240 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-03 08:07:53.271  INFO 16240 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-03-03 08:07:53.373  INFO 16240 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-03 08:07:53.373  INFO 16240 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1015 ms
+2023-03-03 08:07:53.456  INFO 16240 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-03 08:07:53.459  WARN 16240 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-03-03 08:07:53.586  INFO 16240 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-03 08:07:53.619  INFO 16240 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-03 08:07:53.654  INFO 16240 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-03 08:07:53.788  INFO 16240 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-03 08:07:53.884  INFO 16240 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-03-03 08:07:54.314  INFO 16240 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-03 08:07:54.321  INFO 16240 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-03 08:07:54.541  WARN 16240 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-03 08:07:54.809  INFO 16240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-03 08:07:54.817  INFO 16240 --- [main] c.e.s.SpringBootSampleApplication        : Started SpringBootSampleApplication in 2.918 seconds (JVM running for 3.645)
+2023-03-03 08:08:12.377  INFO 16240 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-03 08:08:12.377  INFO 16240 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-03 08:08:12.379  INFO 16240 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-03-03 08:08:12.423  INFO 16240 --- [http-nio-8080-exec-1] c.e.s.controller.ProductController       : this endPointCall 3 : 
+2023-03-03 08:20:59.715  INFO 16240 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-03 08:20:59.717  INFO 16240 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-03 08:20:59.736  INFO 16240 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+08:22:16.346 [background-preinit] INFO  o.h.v.i.u.Version ::: HV000001: Hibernate Validator 6.2.5.Final
+08:22:16.352 [main] INFO  c.e.s.SpringBootSampleApplication ::: Starting SpringBootSampleApplication using Java 17.0.4 on LAPTOP-B46F8KF2 with PID 6788 (D:\springClass\springBootSample\target\classes started by Kiarash in D:\springClass\springBootSample)
+08:22:16.353 [main] INFO  c.e.s.SpringBootSampleApplication ::: No active profile set, falling back to 1 default profile: "default"
+08:22:16.867 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ::: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08:22:16.906 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ::: Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+08:22:17.362 [main] INFO  o.s.b.w.e.t.TomcatWebServer ::: Tomcat initialized with port(s): 8080 (http)
+08:22:17.373 [main] INFO  o.a.c.h.Http11NioProtocol ::: Initializing ProtocolHandler ["http-nio-8080"]
+08:22:17.373 [main] INFO  o.a.c.c.StandardService ::: Starting service [Tomcat]
+08:22:17.373 [main] INFO  o.a.c.c.StandardEngine ::: Starting Servlet engine: [Apache Tomcat/9.0.69]
+08:22:17.485 [main] INFO  o.a.c.c.C.[.[.[/] ::: Initializing Spring embedded WebApplicationContext
+08:22:17.485 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext ::: Root WebApplicationContext: initialization completed in 1095 ms
+08:22:17.582 [main] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Starting...
+08:22:17.586 [main] WARN  c.z.h.u.DriverDataSource ::: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+08:22:17.716 [main] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Start completed.
+08:22:17.756 [main] INFO  o.h.j.i.u.LogHelper ::: HHH000204: Processing PersistenceUnitInfo [name: default]
+08:22:17.829 [main] INFO  o.h.Version ::: HHH000412: Hibernate ORM core version 5.6.14.Final
+08:22:18.014 [main] INFO  o.h.a.c.Version ::: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08:22:18.138 [main] INFO  o.h.d.Dialect ::: HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+08:22:18.678 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator ::: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08:22:18.685 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean ::: Initialized JPA EntityManagerFactory for persistence unit 'default'
+08:22:18.902 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration ::: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08:22:19.134 [main] INFO  o.a.c.h.Http11NioProtocol ::: Starting ProtocolHandler ["http-nio-8080"]
+08:22:19.158 [main] INFO  o.s.b.w.e.t.TomcatWebServer ::: Tomcat started on port(s): 8080 (http) with context path ''
+08:22:19.165 [main] INFO  c.e.s.SpringBootSampleApplication ::: Started SpringBootSampleApplication in 3.126 seconds (JVM running for 3.944)
+08:22:30.636 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean ::: Closing JPA EntityManagerFactory for persistence unit 'default'
+08:22:30.637 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Shutdown initiated...
+08:22:30.643 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Shutdown completed.
+08:22:33.527 [background-preinit] INFO  o.h.v.i.u.Version ::: HV000001: Hibernate Validator 6.2.5.Final
+08:22:33.535 [main] INFO  c.e.s.SpringBootSampleApplication ::: Starting SpringBootSampleApplication using Java 17.0.4 on LAPTOP-B46F8KF2 with PID 1396 (D:\springClass\springBootSample\target\classes started by Kiarash in D:\springClass\springBootSample)
+08:22:33.536 [main] INFO  c.e.s.SpringBootSampleApplication ::: No active profile set, falling back to 1 default profile: "default"
+08:22:34.025 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ::: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08:22:34.063 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ::: Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+08:22:34.455 [main] INFO  o.s.b.w.e.t.TomcatWebServer ::: Tomcat initialized with port(s): 8080 (http)
+08:22:34.462 [main] INFO  o.a.c.h.Http11NioProtocol ::: Initializing ProtocolHandler ["http-nio-8080"]
+08:22:34.462 [main] INFO  o.a.c.c.StandardService ::: Starting service [Tomcat]
+08:22:34.462 [main] INFO  o.a.c.c.StandardEngine ::: Starting Servlet engine: [Apache Tomcat/9.0.69]
+08:22:34.560 [main] INFO  o.a.c.c.C.[.[.[/] ::: Initializing Spring embedded WebApplicationContext
+08:22:34.560 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext ::: Root WebApplicationContext: initialization completed in 979 ms
+08:22:34.645 [main] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Starting...
+08:22:34.649 [main] WARN  c.z.h.u.DriverDataSource ::: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+08:22:34.770 [main] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Start completed.
+08:22:34.801 [main] INFO  o.h.j.i.u.LogHelper ::: HHH000204: Processing PersistenceUnitInfo [name: default]
+08:22:34.838 [main] INFO  o.h.Version ::: HHH000412: Hibernate ORM core version 5.6.14.Final
+08:22:34.967 [main] INFO  o.h.a.c.Version ::: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08:22:35.062 [main] INFO  o.h.d.Dialect ::: HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+08:22:35.466 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator ::: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08:22:35.472 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean ::: Initialized JPA EntityManagerFactory for persistence unit 'default'
+08:22:35.687 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration ::: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08:22:35.923 [main] INFO  o.a.c.h.Http11NioProtocol ::: Starting ProtocolHandler ["http-nio-8080"]
+08:22:35.941 [main] INFO  o.s.b.w.e.t.TomcatWebServer ::: Tomcat started on port(s): 8080 (http) with context path ''
+08:22:35.948 [main] INFO  c.e.s.SpringBootSampleApplication ::: Started SpringBootSampleApplication in 2.701 seconds (JVM running for 3.635)
+08:22:51.338 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] ::: Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:22:51.339 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet ::: Initializing Servlet 'dispatcherServlet'
+08:22:51.340 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet ::: Completed initialization in 1 ms
+08:22:51.383 [http-nio-8080-exec-1] INFO  c.e.s.c.ProductController ::: this endPointCall 3 : 
+09:50:58.468 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean ::: Closing JPA EntityManagerFactory for persistence unit 'default'
+09:50:58.475 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Shutdown initiated...
+09:50:58.477 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Shutdown completed.
+19:29:49.239 [background-preinit] INFO  o.h.v.i.u.Version ::: HV000001: Hibernate Validator 6.2.5.Final
+19:29:49.248 [main] INFO  c.e.s.SpringBootSampleApplication ::: Starting SpringBootSampleApplication using Java 17.0.4 on LAPTOP-B46F8KF2 with PID 3064 (D:\springClass\springBootSample\target\classes started by Kiarash in D:\springClass\springBootSample)
+19:29:49.249 [main] INFO  c.e.s.SpringBootSampleApplication ::: No active profile set, falling back to 1 default profile: "default"
+19:29:49.944 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ::: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:29:49.993 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ::: Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+19:29:50.493 [main] INFO  o.s.b.w.e.t.TomcatWebServer ::: Tomcat initialized with port(s): 8080 (http)
+19:29:50.504 [main] INFO  o.a.c.h.Http11NioProtocol ::: Initializing ProtocolHandler ["http-nio-8080"]
+19:29:50.504 [main] INFO  o.a.c.c.StandardService ::: Starting service [Tomcat]
+19:29:50.504 [main] INFO  o.a.c.c.StandardEngine ::: Starting Servlet engine: [Apache Tomcat/9.0.69]
+19:29:50.613 [main] INFO  o.a.c.c.C.[.[.[/] ::: Initializing Spring embedded WebApplicationContext
+19:29:50.613 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext ::: Root WebApplicationContext: initialization completed in 1282 ms
+19:29:50.724 [main] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Starting...
+19:29:50.730 [main] WARN  c.z.h.u.DriverDataSource ::: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+19:29:50.909 [main] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Start completed.
+19:29:50.954 [main] INFO  o.h.j.i.u.LogHelper ::: HHH000204: Processing PersistenceUnitInfo [name: default]
+19:29:51.041 [main] INFO  o.h.Version ::: HHH000412: Hibernate ORM core version 5.6.14.Final
+19:29:51.221 [main] INFO  o.h.a.c.Version ::: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:29:51.350 [main] INFO  o.h.d.Dialect ::: HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+19:29:51.865 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator ::: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:29:51.872 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean ::: Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:29:52.144 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration ::: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:29:52.425 [main] INFO  o.a.c.h.Http11NioProtocol ::: Starting ProtocolHandler ["http-nio-8080"]
+19:29:52.441 [main] INFO  o.s.b.w.e.t.TomcatWebServer ::: Tomcat started on port(s): 8080 (http) with context path ''
+19:29:52.450 [main] INFO  c.e.s.SpringBootSampleApplication ::: Started SpringBootSampleApplication in 3.619 seconds (JVM running for 5.1)
+19:32:53.383 [http-nio-8080-exec-4] INFO  o.a.c.c.C.[.[.[/] ::: Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:32:53.384 [http-nio-8080-exec-4] INFO  o.s.w.s.DispatcherServlet ::: Initializing Servlet 'dispatcherServlet'
+19:32:53.384 [http-nio-8080-exec-4] INFO  o.s.w.s.DispatcherServlet ::: Completed initialization in 0 ms
+19:40:27.225 [http-nio-8080-exec-9] INFO  c.e.s.c.ProductController ::: this endPointCall 1 : 
+19:41:05.984 [http-nio-8080-exec-10] INFO  c.e.s.c.ProductController ::: this endPointCall 1 : 
+19:41:33.103 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean ::: Closing JPA EntityManagerFactory for persistence unit 'default'
+19:41:33.104 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Shutdown initiated...
+19:41:33.122 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Shutdown completed.
+19:41:38.834 [background-preinit] INFO  o.h.v.i.u.Version ::: HV000001: Hibernate Validator 6.2.5.Final
+19:41:38.841 [main] INFO  c.e.s.SpringBootSampleApplication ::: Starting SpringBootSampleApplication using Java 17.0.4 on LAPTOP-B46F8KF2 with PID 4932 (D:\springClass\springBootSample\target\classes started by Kiarash in D:\springClass\springBootSample)
+19:41:38.842 [main] INFO  c.e.s.SpringBootSampleApplication ::: No active profile set, falling back to 1 default profile: "default"
+19:41:39.351 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ::: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:41:39.399 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ::: Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+19:41:39.835 [main] INFO  o.s.b.w.e.t.TomcatWebServer ::: Tomcat initialized with port(s): 8080 (http)
+19:41:39.844 [main] INFO  o.a.c.h.Http11NioProtocol ::: Initializing ProtocolHandler ["http-nio-8080"]
+19:41:39.844 [main] INFO  o.a.c.c.StandardService ::: Starting service [Tomcat]
+19:41:39.845 [main] INFO  o.a.c.c.StandardEngine ::: Starting Servlet engine: [Apache Tomcat/9.0.69]
+19:41:39.948 [main] INFO  o.a.c.c.C.[.[.[/] ::: Initializing Spring embedded WebApplicationContext
+19:41:39.948 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext ::: Root WebApplicationContext: initialization completed in 1071 ms
+19:41:40.041 [main] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Starting...
+19:41:40.046 [main] WARN  c.z.h.u.DriverDataSource ::: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+19:41:40.183 [main] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Start completed.
+19:41:40.223 [main] INFO  o.h.j.i.u.LogHelper ::: HHH000204: Processing PersistenceUnitInfo [name: default]
+19:41:40.302 [main] INFO  o.h.Version ::: HHH000412: Hibernate ORM core version 5.6.14.Final
+19:41:40.477 [main] INFO  o.h.a.c.Version ::: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:41:40.603 [main] INFO  o.h.d.Dialect ::: HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+19:41:41.111 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator ::: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:41:41.118 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean ::: Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:41:41.332 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration ::: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:41:41.573 [main] INFO  o.a.c.h.Http11NioProtocol ::: Starting ProtocolHandler ["http-nio-8080"]
+19:41:41.590 [main] INFO  o.s.b.w.e.t.TomcatWebServer ::: Tomcat started on port(s): 8080 (http) with context path ''
+19:41:41.598 [main] INFO  c.e.s.SpringBootSampleApplication ::: Started SpringBootSampleApplication in 3.104 seconds (JVM running for 3.988)
+19:41:49.450 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/] ::: Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:41:49.450 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet ::: Initializing Servlet 'dispatcherServlet'
+19:41:49.451 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet ::: Completed initialization in 1 ms
+19:41:54.406 [http-nio-8080-exec-2] INFO  c.e.s.c.ProductController ::: this endPointCall 1 : 
+19:42:10.634 [http-nio-8080-exec-4] INFO  c.e.s.c.ProductController ::: this endPointCall 3 : 
+19:42:40.623 [http-nio-8080-exec-3] INFO  c.e.s.c.ProductController ::: this endPointCall 3 : 
+19:42:46.629 [http-nio-8080-exec-5] INFO  c.e.s.c.ProductController ::: this endPointCall 3 : 
+19:43:27.212 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean ::: Closing JPA EntityManagerFactory for persistence unit 'default'
+19:43:27.214 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Shutdown initiated...
+19:43:27.230 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Shutdown completed.
+19:43:32.495 [background-preinit] INFO  o.h.v.i.u.Version ::: HV000001: Hibernate Validator 6.2.5.Final
+19:43:32.503 [main] INFO  c.e.s.SpringBootSampleApplication ::: Starting SpringBootSampleApplication using Java 17.0.4 on LAPTOP-B46F8KF2 with PID 7264 (D:\springClass\springBootSample\target\classes started by Kiarash in D:\springClass\springBootSample)
+19:43:32.504 [main] INFO  c.e.s.SpringBootSampleApplication ::: No active profile set, falling back to 1 default profile: "default"
+19:43:33.020 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ::: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:43:33.076 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ::: Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+19:43:33.543 [main] INFO  o.s.b.w.e.t.TomcatWebServer ::: Tomcat initialized with port(s): 8080 (http)
+19:43:33.552 [main] INFO  o.a.c.h.Http11NioProtocol ::: Initializing ProtocolHandler ["http-nio-8080"]
+19:43:33.552 [main] INFO  o.a.c.c.StandardService ::: Starting service [Tomcat]
+19:43:33.552 [main] INFO  o.a.c.c.StandardEngine ::: Starting Servlet engine: [Apache Tomcat/9.0.69]
+19:43:33.668 [main] INFO  o.a.c.c.C.[.[.[/] ::: Initializing Spring embedded WebApplicationContext
+19:43:33.668 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext ::: Root WebApplicationContext: initialization completed in 1114 ms
+19:43:33.778 [main] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Starting...
+19:43:33.785 [main] WARN  c.z.h.u.DriverDataSource ::: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+19:43:33.930 [main] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Start completed.
+19:43:33.969 [main] INFO  o.h.j.i.u.LogHelper ::: HHH000204: Processing PersistenceUnitInfo [name: default]
+19:43:34.052 [main] INFO  o.h.Version ::: HHH000412: Hibernate ORM core version 5.6.14.Final
+19:43:34.211 [main] INFO  o.h.a.c.Version ::: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:43:34.331 [main] INFO  o.h.d.Dialect ::: HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+19:43:34.820 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator ::: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:43:34.828 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean ::: Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:43:35.073 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration ::: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:43:35.344 [main] INFO  o.a.c.h.Http11NioProtocol ::: Starting ProtocolHandler ["http-nio-8080"]
+19:43:35.362 [main] INFO  o.s.b.w.e.t.TomcatWebServer ::: Tomcat started on port(s): 8080 (http) with context path ''
+19:43:35.370 [main] INFO  c.e.s.SpringBootSampleApplication ::: Started SpringBootSampleApplication in 3.173 seconds (JVM running for 4.025)
+19:43:41.794 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] ::: Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:43:41.795 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet ::: Initializing Servlet 'dispatcherServlet'
+19:43:41.797 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet ::: Completed initialization in 2 ms
+19:43:41.823 [http-nio-8080-exec-1] INFO  c.e.s.c.ProductController ::: this endPointCall 3 : 
+19:44:03.670 [http-nio-8080-exec-3] INFO  c.e.s.c.ProductController ::: this endPointCall 3 : 
+19:44:04.847 [http-nio-8080-exec-4] INFO  c.e.s.c.ProductController ::: this endPointCall 3 : 
+19:44:15.573 [http-nio-8080-exec-5] INFO  c.e.s.c.ProductController ::: this endPointCall 3 : 
+19:46:55.825 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean ::: Closing JPA EntityManagerFactory for persistence unit 'default'
+19:46:55.825 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Shutdown initiated...
+19:46:55.831 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Shutdown completed.
+19:47:01.100 [background-preinit] INFO  o.h.v.i.u.Version ::: HV000001: Hibernate Validator 6.2.5.Final
+19:47:01.113 [main] INFO  c.e.s.SpringBootSampleApplication ::: Starting SpringBootSampleApplication using Java 17.0.4 on LAPTOP-B46F8KF2 with PID 16828 (D:\springClass\springBootSample\target\classes started by Kiarash in D:\springClass\springBootSample)
+19:47:01.115 [main] INFO  c.e.s.SpringBootSampleApplication ::: No active profile set, falling back to 1 default profile: "default"
+19:47:01.746 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ::: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:47:01.796 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ::: Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+19:47:02.227 [main] INFO  o.s.b.w.e.t.TomcatWebServer ::: Tomcat initialized with port(s): 8080 (http)
+19:47:02.235 [main] INFO  o.a.c.h.Http11NioProtocol ::: Initializing ProtocolHandler ["http-nio-8080"]
+19:47:02.235 [main] INFO  o.a.c.c.StandardService ::: Starting service [Tomcat]
+19:47:02.235 [main] INFO  o.a.c.c.StandardEngine ::: Starting Servlet engine: [Apache Tomcat/9.0.69]
+19:47:02.331 [main] INFO  o.a.c.c.C.[.[.[/] ::: Initializing Spring embedded WebApplicationContext
+19:47:02.331 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext ::: Root WebApplicationContext: initialization completed in 1156 ms
+19:47:02.432 [main] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Starting...
+19:47:02.437 [main] WARN  c.z.h.u.DriverDataSource ::: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+19:47:02.560 [main] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Start completed.
+19:47:02.592 [main] INFO  o.h.j.i.u.LogHelper ::: HHH000204: Processing PersistenceUnitInfo [name: default]
+19:47:02.640 [main] INFO  o.h.Version ::: HHH000412: Hibernate ORM core version 5.6.14.Final
+19:47:02.770 [main] INFO  o.h.a.c.Version ::: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:47:02.872 [main] INFO  o.h.d.Dialect ::: HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+19:47:03.329 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator ::: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:47:03.337 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean ::: Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:47:03.607 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration ::: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:47:03.901 [main] INFO  o.a.c.h.Http11NioProtocol ::: Starting ProtocolHandler ["http-nio-8080"]
+19:47:03.921 [main] INFO  o.s.b.w.e.t.TomcatWebServer ::: Tomcat started on port(s): 8080 (http) with context path ''
+19:47:03.930 [main] INFO  c.e.s.SpringBootSampleApplication ::: Started SpringBootSampleApplication in 3.144 seconds (JVM running for 3.885)
+19:48:23.641 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[.[.[/] ::: Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:48:23.641 [http-nio-8080-exec-3] INFO  o.s.w.s.DispatcherServlet ::: Initializing Servlet 'dispatcherServlet'
+19:48:23.643 [http-nio-8080-exec-3] INFO  o.s.w.s.DispatcherServlet ::: Completed initialization in 2 ms
+19:48:23.667 [http-nio-8080-exec-3] INFO  c.e.s.c.ProductController ::: this endPointCall 3 : 
+19:48:41.585 [http-nio-8080-exec-2] INFO  c.e.s.c.ProductController ::: this endPointCall 3 : 
+19:48:54.714 [http-nio-8080-exec-4] INFO  c.e.s.c.ProductController ::: this endPointCall 3 : 
+19:50:00.510 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean ::: Closing JPA EntityManagerFactory for persistence unit 'default'
+19:50:00.511 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Shutdown initiated...
+19:50:00.518 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Shutdown completed.
+19:50:05.409 [background-preinit] INFO  o.h.v.i.u.Version ::: HV000001: Hibernate Validator 6.2.5.Final
+19:50:05.417 [main] INFO  c.e.s.SpringBootSampleApplication ::: Starting SpringBootSampleApplication using Java 17.0.4 on LAPTOP-B46F8KF2 with PID 8412 (D:\springClass\springBootSample\target\classes started by Kiarash in D:\springClass\springBootSample)
+19:50:05.418 [main] INFO  c.e.s.SpringBootSampleApplication ::: No active profile set, falling back to 1 default profile: "default"
+19:50:05.960 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ::: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:50:06.021 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ::: Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+19:50:06.447 [main] INFO  o.s.b.w.e.t.TomcatWebServer ::: Tomcat initialized with port(s): 8080 (http)
+19:50:06.454 [main] INFO  o.a.c.h.Http11NioProtocol ::: Initializing ProtocolHandler ["http-nio-8080"]
+19:50:06.454 [main] INFO  o.a.c.c.StandardService ::: Starting service [Tomcat]
+19:50:06.454 [main] INFO  o.a.c.c.StandardEngine ::: Starting Servlet engine: [Apache Tomcat/9.0.69]
+19:50:06.548 [main] INFO  o.a.c.c.C.[.[.[/] ::: Initializing Spring embedded WebApplicationContext
+19:50:06.548 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext ::: Root WebApplicationContext: initialization completed in 1078 ms
+19:50:06.642 [main] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Starting...
+19:50:06.646 [main] WARN  c.z.h.u.DriverDataSource ::: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+19:50:06.775 [main] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Start completed.
+19:50:06.807 [main] INFO  o.h.j.i.u.LogHelper ::: HHH000204: Processing PersistenceUnitInfo [name: default]
+19:50:06.852 [main] INFO  o.h.Version ::: HHH000412: Hibernate ORM core version 5.6.14.Final
+19:50:07.010 [main] INFO  o.h.a.c.Version ::: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:50:07.107 [main] INFO  o.h.d.Dialect ::: HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+19:50:07.535 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator ::: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:50:07.542 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean ::: Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:50:07.782 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration ::: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:50:08.045 [main] INFO  o.a.c.h.Http11NioProtocol ::: Starting ProtocolHandler ["http-nio-8080"]
+19:50:08.059 [main] INFO  o.s.b.w.e.t.TomcatWebServer ::: Tomcat started on port(s): 8080 (http) with context path ''
+19:50:08.067 [main] INFO  c.e.s.SpringBootSampleApplication ::: Started SpringBootSampleApplication in 2.952 seconds (JVM running for 3.821)
+19:50:25.072 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[.[.[/] ::: Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:50:25.072 [http-nio-8080-exec-3] INFO  o.s.w.s.DispatcherServlet ::: Initializing Servlet 'dispatcherServlet'
+19:50:25.073 [http-nio-8080-exec-3] INFO  o.s.w.s.DispatcherServlet ::: Completed initialization in 1 ms
+19:50:25.100 [http-nio-8080-exec-3] INFO  c.e.s.c.ProductController ::: this endPointCall 3 : 
+19:50:38.167 [http-nio-8080-exec-2] INFO  c.e.s.c.ProductController ::: this endPointCall 3 : 
+19:50:55.723 [http-nio-8080-exec-5] INFO  c.e.s.c.ProductController ::: this endPointCall 3 : 
+19:52:21.605 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean ::: Closing JPA EntityManagerFactory for persistence unit 'default'
+19:52:21.606 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Shutdown initiated...
+19:52:21.611 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Shutdown completed.
+19:52:26.220 [background-preinit] INFO  o.h.v.i.u.Version ::: HV000001: Hibernate Validator 6.2.5.Final
+19:52:26.230 [main] INFO  c.e.s.SpringBootSampleApplication ::: Starting SpringBootSampleApplication using Java 17.0.4 on LAPTOP-B46F8KF2 with PID 7928 (D:\springClass\springBootSample\target\classes started by Kiarash in D:\springClass\springBootSample)
+19:52:26.232 [main] INFO  c.e.s.SpringBootSampleApplication ::: No active profile set, falling back to 1 default profile: "default"
+19:52:26.762 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ::: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:52:26.809 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ::: Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+19:52:27.240 [main] INFO  o.s.b.w.e.t.TomcatWebServer ::: Tomcat initialized with port(s): 8080 (http)
+19:52:27.248 [main] INFO  o.a.c.h.Http11NioProtocol ::: Initializing ProtocolHandler ["http-nio-8080"]
+19:52:27.248 [main] INFO  o.a.c.c.StandardService ::: Starting service [Tomcat]
+19:52:27.248 [main] INFO  o.a.c.c.StandardEngine ::: Starting Servlet engine: [Apache Tomcat/9.0.69]
+19:52:27.349 [main] INFO  o.a.c.c.C.[.[.[/] ::: Initializing Spring embedded WebApplicationContext
+19:52:27.349 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext ::: Root WebApplicationContext: initialization completed in 1068 ms
+19:52:27.448 [main] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Starting...
+19:52:27.453 [main] WARN  c.z.h.u.DriverDataSource ::: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+19:52:27.583 [main] INFO  c.z.h.HikariDataSource ::: HikariPool-1 - Start completed.
+19:52:27.617 [main] INFO  o.h.j.i.u.LogHelper ::: HHH000204: Processing PersistenceUnitInfo [name: default]
+19:52:27.668 [main] INFO  o.h.Version ::: HHH000412: Hibernate ORM core version 5.6.14.Final
+19:52:27.802 [main] INFO  o.h.a.c.Version ::: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:52:27.904 [main] INFO  o.h.d.Dialect ::: HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+19:52:28.350 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator ::: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:52:28.358 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean ::: Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:52:28.623 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration ::: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:52:28.954 [main] INFO  o.a.c.h.Http11NioProtocol ::: Starting ProtocolHandler ["http-nio-8080"]
+19:52:28.973 [main] INFO  o.s.b.w.e.t.TomcatWebServer ::: Tomcat started on port(s): 8080 (http) with context path ''
+19:52:28.983 [main] INFO  c.e.s.SpringBootSampleApplication ::: Started SpringBootSampleApplication in 3.079 seconds (JVM running for 3.872)
+19:52:49.014 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/] ::: Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:52:49.014 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet ::: Initializing Servlet 'dispatcherServlet'
+19:52:49.015 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet ::: Completed initialization in 1 ms
+19:52:49.039 [http-nio-8080-exec-2] INFO  c.e.s.c.ProductController ::: this endPointCall 3 : 
+22:29:24.606 [HikariPool-1 housekeeper] WARN  c.z.h.p.HikariPool ::: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h3m26s327ms546µs400ns).
